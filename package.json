@@ -1,0 +1,14 @@
+{
+  "name": "api-proxy",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "DEBUG=api-proxy:server ./bin/www"
+  },
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-http-proxy": "^1.6.0",
+    "morgan": "~1.9.1"
+  }
+}
